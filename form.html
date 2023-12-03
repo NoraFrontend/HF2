@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<link href="#https://fonts.google.com/specimen/Finger+Paint?query=paint" rel="stylesheet">-->
+<meta charset="UTF-8">
+<title>Festés</title>
+<style>
+    body {background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b2/Reproduction_cave_of_Altamira_01.jpg'); opacity: 0.8;}
+    .nav {font-family: 'Papyrus'; width: 160px;}
+    .site-footer {background-color: black;}
+    .p1 {font-size: 18px; font-family: 'Papyrus', 'Times New Roman';}
+    .footer-content { background-color: black; color: white; text-align: justify; }
+    .rejtett {display: none;}
+    .label {font-family: 'Papyrus'; display: inline-block; width: 120px; background-color: rgb(238, 236, 236);}
+    .form {border: 1px solid gray; padding: 12px 16px;}
+</style>
+<!--body {background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b2/Reproduction_cave_of_Altamira_01.jpg'); opacity: 0.5;}>-->
+</head>
+<!--<input class="rejtett" type="email" id="email" placeholder="ide ne írj">-->
+
+<body>
+    <!--<div class="div" id="teteje"></div>
+<nav class="nav"><a href="#form">Ugorj az űrlapra</a></nav>
+<span class="nav" style="font-size: 18px;">Feliratkozáshoz kattints </span><a href="#form"><span style="font-family: 'Papyrus';" class="nagykapitalis">ide</span>-->
+<h1 title="Cikk küldése ismerősnek" class="nav"><span style="color:lightsalmon">Fel</span><span style="color: lightseagreen">i</span><span style="color: lightgreen">rat</span><span style="color: lightcoral">ko</span><span style="color: lightslategrey">zás</span></h1>
+<!--<input class="rejtett" type="email" id="email" placeholder="ide ne írj">-->
+
+    <form name="Cikk küldése ismerősnek" title="Cikk küldése ismerősnek" class="form" onsubmit="return confirm('Biztosan így küldöd el?')">
+        <label class="label" for="Névinput">Név*: </label>
+            <input class="nav" type="text" name="Név" required minlength="6" id="Névinput" placeholder="Vezetéknév és Keresztnév"><br>
+
+        <label class="label" for="Telefoninput">Telefonszám: </label>
+            <input class="nav" type="tel" name="Telefonszám" minlength="11" id="Telefoninput" placeholder="+12 34 567 89 10"><br>
+
+        <label class="label" for="Emailinput">E-mail cím*: </label>
+            <input type="hidden" name="rejtett" id="rejtettinput" value="érték">
+            <input class="nav" type="email" name="Email" required id="Emailinput" placeholder="nev@email.hu"><br>
+
+        <label class="label" for="Korinput">Életkor: </label>
+            <input class="nav" type="number" name="Kor" min="10" max="100" id="Korinput" placeholder="10-100"><br>
+
+        <label class="label" for="Üzenetinput">Üzenet: </label>
+            <input class="nav" type="text" name="Üzenet" id="Üzenetinput" placeholder="Írd ide a véleményed" >
+        <p class="p1">* Kötelező kitölteni</p>
+        <button class="nav" type="submit">Beküld</button>
+    </form>
+
+<!--<footer class="site-footer" style="background-color: black; color: white;">
+    <div id="footer-content"></div>
+        <p> Feliratkozáshoz kattints <a href="file:///C:/Users/Felhaszn%C3%A1l%C3%B3/Desktop/Frontend/HF/form.html"><link><div style="text-transform: uppercase">ide</div</link></a></p>
+    
+        <p class="p1">
+            <a href="#teteje">Ugorj</a> az elejére
+        </p>
+        
+</footer>
+<div id="form"></div>-->
+</body>
+</html>
